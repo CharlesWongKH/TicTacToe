@@ -16,6 +16,9 @@
 		51EB7F4D23CCCFBF007A59BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51EB7F4B23CCCFBF007A59BA /* LaunchScreen.storyboard */; };
 		51EB7F5823CCCFBF007A59BA /* Tic_Tac_ToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EB7F5723CCCFBF007A59BA /* Tic_Tac_ToeTests.swift */; };
 		51EB7F6323CCCFBF007A59BA /* Tic_Tac_ToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EB7F6223CCCFBF007A59BA /* Tic_Tac_ToeUITests.swift */; };
+		51EB7F7123CCD9FD007A59BA /* GameStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EB7F7023CCD9FD007A59BA /* GameStateViewController.swift */; };
+		51EB7F7423CCF7F3007A59BA /* GameRecord+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EB7F7223CCF7F3007A59BA /* GameRecord+CoreDataClass.swift */; };
+		51EB7F7523CCF7F3007A59BA /* GameRecord+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EB7F7323CCF7F3007A59BA /* GameRecord+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		51EB7F5E23CCCFBF007A59BA /* Tic-Tac-ToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic-Tac-ToeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51EB7F6223CCCFBF007A59BA /* Tic_Tac_ToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeUITests.swift; sourceTree = "<group>"; };
 		51EB7F6423CCCFBF007A59BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51EB7F7023CCD9FD007A59BA /* GameStateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStateViewController.swift; sourceTree = "<group>"; };
+		51EB7F7223CCF7F3007A59BA /* GameRecord+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameRecord+CoreDataClass.swift"; sourceTree = "<group>"; };
+		51EB7F7323CCF7F3007A59BA /* GameRecord+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameRecord+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,8 @@
 		51EB7F3123CCCFBE007A59BA = {
 			isa = PBXGroup;
 			children = (
+				51EB7F7223CCF7F3007A59BA /* GameRecord+CoreDataClass.swift */,
+				51EB7F7323CCF7F3007A59BA /* GameRecord+CoreDataProperties.swift */,
 				51EB7F3C23CCCFBE007A59BA /* Tic-Tac-Toe */,
 				51EB7F5623CCCFBF007A59BA /* Tic-Tac-ToeTests */,
 				51EB7F6123CCCFBF007A59BA /* Tic-Tac-ToeUITests */,
@@ -104,11 +112,12 @@
 				51EB7F3D23CCCFBE007A59BA /* AppDelegate.swift */,
 				51EB7F3F23CCCFBE007A59BA /* SceneDelegate.swift */,
 				51EB7F4123CCCFBE007A59BA /* ViewController.swift */,
-				51EB7F4323CCCFBE007A59BA /* Main.storyboard */,
 				51EB7F4923CCCFBF007A59BA /* Assets.xcassets */,
+				51EB7F4323CCCFBE007A59BA /* Main.storyboard */,
 				51EB7F4B23CCCFBF007A59BA /* LaunchScreen.storyboard */,
 				51EB7F4E23CCCFBF007A59BA /* Info.plist */,
 				51EB7F4623CCCFBE007A59BA /* Tic_Tac_Toe.xcdatamodeld */,
+				51EB7F7023CCD9FD007A59BA /* GameStateViewController.swift */,
 			);
 			path = "Tic-Tac-Toe";
 			sourceTree = "<group>";
@@ -264,7 +273,10 @@
 			files = (
 				51EB7F4223CCCFBE007A59BA /* ViewController.swift in Sources */,
 				51EB7F3E23CCCFBE007A59BA /* AppDelegate.swift in Sources */,
+				51EB7F7523CCF7F3007A59BA /* GameRecord+CoreDataProperties.swift in Sources */,
+				51EB7F7423CCF7F3007A59BA /* GameRecord+CoreDataClass.swift in Sources */,
 				51EB7F4823CCCFBE007A59BA /* Tic_Tac_Toe.xcdatamodeld in Sources */,
+				51EB7F7123CCD9FD007A59BA /* GameStateViewController.swift in Sources */,
 				51EB7F4023CCCFBE007A59BA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
